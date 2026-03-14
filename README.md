@@ -1,5 +1,7 @@
-#🥁 Drum Kit
-/////
+<h1 align="center">🥁 Drum Kit</h1>
+<h3 align="center">Interactive Drum Kit built with HTML, CSS & JavaScript</h3>
+
+---
 
 A fun interactive drum kit built using **HTML, CSS, and JavaScript**.  
 Users can play different drum sounds either by **clicking the drum buttons or pressing keyboard keys**.
@@ -8,25 +10,25 @@ Each key triggers a specific drum sound, creating a simple virtual drum experien
 
 ---
 
-#🚀 Features
+# 🚀 Features
 
-Play drum sounds using keyboard keys  
-Click buttons to trigger drum sounds  
-Interactive button animations  
-Responsive and clean UI  
-Simple JavaScript event handling  
-
----
-
-#🛠️ Tech Stack
-
-HTML5  
-CSS3  
-JavaScript (DOM Manipulation & Event Listeners)
+- Play drum sounds using keyboard keys  
+- Click buttons to trigger drum sounds  
+- Interactive button animations  
+- Responsive and clean UI  
+- Simple JavaScript event handling  
 
 ---
 
-#📂 Project Structure
+# 🛠 Tech Stack
+
+**HTML5**  
+**CSS3**  
+**JavaScript (DOM Manipulation & Event Listeners)**  
+
+---
+
+# 📂 Project Structure
 
 ```
 drum-kit/
@@ -52,7 +54,7 @@ drum-kit/
 │
 ├── src/
 │   ├── css/
-│   │   └── style.css
+│   │   └── styles.css
 │   │
 │   └── js/
 │       └── index.js
@@ -64,7 +66,7 @@ drum-kit/
 
 ---
 
-#▶️ How to Run
+# ▶️ How to Run
 
 Clone the repository
 
@@ -74,7 +76,8 @@ git clone https://github.com/LogicHymn/drum-kit.git
 
 Open the project folder.
 
-Run using **VS Code Live Server**  
+Run using **VS Code Live Server**
+
 or simply open:
 
 ```
@@ -85,7 +88,7 @@ in your browser.
 
 ---
 
-#🎮 Controls
+# 🎮 Controls
 
 | Key | Drum Sound |
 |----|-------------|
@@ -97,23 +100,23 @@ in your browser.
 | K | Tom 3 |
 | L | Tom 4 |
 
-You can also **click the buttons** to play the sounds.
+You can also **click the drum buttons** to play sounds.
 
 ---
 
-#🧠 Game Logic
+# 🧠 Project Logic
 
 JavaScript listens for:
 
-Keyboard key presses  
-Mouse button clicks  
+- Keyboard key presses  
+- Mouse clicks on drum buttons  
 
 When triggered:
 
-1. The corresponding sound file is played
-2. The button briefly animates to show interaction
+1. The corresponding drum sound is played
+2. The button animates briefly for visual feedback
 
-Example sound logic:
+Example:
 
 ```
 new Audio("assets/sounds/crash.mp3").play();
@@ -121,32 +124,32 @@ new Audio("assets/sounds/crash.mp3").play();
 
 ---
 
-#🎯 Purpose
+# 🎯 Purpose
 
 This project was created to practice:
 
-DOM manipulation  
-JavaScript event listeners  
-Handling keyboard inputs  
-Playing audio with JavaScript  
+- DOM manipulation
+- Event listeners
+- Keyboard input handling
+- Playing audio using JavaScript
 
 ---
 
-#✨ Future Enhancements
+# ✨ Future Improvements
 
-Add drum animation effects  
-Add mobile touch support improvements  
-Add sound visualizer  
-Add recording feature  
+- Add drum animation effects  
+- Add mobile touch support  
+- Add sound visualizer  
+- Add recording feature  
 
 ---
 
-#📄 License
+# 📄 License
 
 This project is created for **learning and practice purposes**.
 
 ---
 
-#👨‍💻 Author
+# 👨‍💻 Author
 
-Built with ❤️ while learning **JavaScript and Frontend Development**.
+Built with ❤️ by **Shlok Gupta**
