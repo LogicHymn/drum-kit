@@ -1,4 +1,4 @@
-🥁 Drum Kit
+#🥁 Drum Kit
 /////
 
 A fun interactive drum kit built using **HTML, CSS, and JavaScript**.  
@@ -8,7 +8,7 @@ Each key triggers a specific drum sound, creating a simple virtual drum experien
 
 ---
 
-🚀 Features
+#🚀 Features
 
 Play drum sounds using keyboard keys  
 Click buttons to trigger drum sounds  
@@ -18,7 +18,7 @@ Simple JavaScript event handling
 
 ---
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 
 HTML5  
 CSS3  
@@ -26,7 +26,7 @@ JavaScript (DOM Manipulation & Event Listeners)
 
 ---
 
-📂 Project Structure
+#📂 Project Structure
 
 ```
 drum-kit/
@@ -52,7 +52,7 @@ drum-kit/
 │
 ├── src/
 │   ├── css/
-│   │   └── styles.css
+│   │   └── style.css
 │   │
 │   └── js/
 │       └── index.js
@@ -64,7 +64,7 @@ drum-kit/
 
 ---
 
-▶️ How to Run
+#▶️ How to Run
 
 Clone the repository
 
@@ -85,7 +85,7 @@ in your browser.
 
 ---
 
-🎮 Controls
+#🎮 Controls
 
 | Key | Drum Sound |
 |----|-------------|
@@ -101,7 +101,7 @@ You can also **click the buttons** to play the sounds.
 
 ---
 
-🧠 Game Logic
+#🧠 Game Logic
 
 JavaScript listens for:
 
@@ -121,7 +121,7 @@ new Audio("assets/sounds/crash.mp3").play();
 
 ---
 
-🎯 Purpose
+#🎯 Purpose
 
 This project was created to practice:
 
@@ -132,7 +132,7 @@ Playing audio with JavaScript
 
 ---
 
-✨ Future Enhancements
+#✨ Future Enhancements
 
 Add drum animation effects  
 Add mobile touch support improvements  
@@ -141,12 +141,12 @@ Add recording feature
 
 ---
 
-📄 License
+#📄 License
 
 This project is created for **learning and practice purposes**.
 
 ---
 
-👨‍💻 Author
+#👨‍💻 Author
 
 Built with ❤️ while learning **JavaScript and Frontend Development**.
